@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'idea'
+    id 'org.springframework.boot' version '3.3.6'
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+repositories {
+    mavenLocal()
+    maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+    maven { url 'https://nexus.saas.hand-china.com/content/repositories/rdc/' }
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter:3.3.6'
+    implementation 'org.springframework.boot:spring-boot-starter-web:3.3.6'
+    implementation 'org.springframework.boot:spring-boot-loader:3.3.6'
+
+    implementation 'org.springframework.ai:spring-ai-mcp:1.0.0-M6'
+
+    implementation 'io.modelcontextprotocol.sdk:mcp-spring-webflux:0.7.0'
+    implementation 'io.modelcontextprotocol.sdk:mcp-spring-webmvc:0.7.0'
+
+    implementation 'org.projectlombok:lombok:1.18.36'
+    annotationProcessor 'org.projectlombok:lombok:1.18.36'
+    implementation 'com.alibaba.fastjson2:fastjson2:2.0.55'
+    implementation 'cn.hutool:hutool-all:5.8.35'
+}
