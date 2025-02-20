@@ -186,5 +186,4 @@ All tools return responses in the following format:
        ![initial model1](./focus_mcp_sql_init_1.png)
        ![initial model2](./focus_mcp_sql_init_2.png)
     2. transfer: what is the max age
-       ![chat1](./focus_mcp_sql_chat_1.png)
-       ![chat2](./focus_mcp_sql_chat_2.png)
+       ![chat](./focus_mcp_sql_chat.png)

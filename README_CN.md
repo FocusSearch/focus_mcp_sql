@@ -185,5 +185,4 @@ model 参数说明：
         ![初始化1](./focus_mcp_sql_init_cn_1.png)
         ![初始化2](./focus_mcp_sql_init_cn_2.png)
     2. 查询:age的最大值是多少
-       ![查询1](./focus_mcp_sql_chat_cn_1.png)
-       ![查询2](./focus_mcp_sql_chat_cn_2.png)
+       ![查询](./focus_mcp_sql_chat_cn.png)
