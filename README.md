@@ -9,13 +9,14 @@ A Model Context Protocol (MCP) server enables artificial intelligence assistants
 
 ## Prerequisites
 
-- jdk 23 or higher
-- gradle 8.12 or higher
+- jdk 23 or higher. Download [jdk](https://www.oracle.com/java/technologies/downloads/)
+- gradle 8.12 or higher. Download [gradle](https://gradle.org/install/)
 - register [Datafocus](https://www.datafocus.ai/) to obtain bearer token: 
-    1. Register an account
+    1. Register an account in [Datafocus](https://www.datafocus.ai/)
     2. Create an application
     3. Enter the application
     4. Admin -> Interface authentication -> Bearer Token -> New Bearer Token
+       ![bearer token](bearer_token.png)
 
 ## Installation
 
@@ -37,8 +38,7 @@ The jar path: build/libs/focus_mcp_sql.jar
 
 ## MCP Configuration
 
-Add the server to your MCP settings file (usually located
-at `~/AppData/Roaming/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`):
+Add the server to your MCP settings file:
 
 ```json
 {
@@ -164,8 +164,6 @@ Convert natural language to SQL.
 
 All tools return responses in the following format:
 
-### Success Response
-
 ```json
 {
   "errCode": 0,
@@ -178,15 +176,15 @@ All tools return responses in the following format:
 }
 ```
 
-### Error Response
+## Visual Studio Code Cline Sample
 
-```json
-{
-  "errCode": 1001,
-  "exception": "",
-  "msgParams": null,
-  "promptMsg": null,
-  "success": false,
-  "data": null
-}
-```
+1. vsCode install cline plugin
+2. mcp server config
+   ![config mcp server](./mcp_server_config.png)
+3. use
+    1. initial model
+       ![initial model1](./focus_mcp_sql_init_1.png)
+       ![initial model2](./focus_mcp_sql_init_2.png)
+    2. transfer: what is the max age
+       ![chat1](./focus_mcp_sql_chat_1.png)
+       ![chat2](./focus_mcp_sql_chat_2.png)

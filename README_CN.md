@@ -9,14 +9,14 @@
 
 ## 准备
 
-- jdk 23 或者以上版本
-- gradle 8.12 或者以上版本
+- jdk 23 或者以上版本。 [下载jdk](https://www.oracle.com/java/technologies/downloads/)
+- gradle 8.12 或者以上版本。 [下载gradle](https://gradle.org/install/)
 - 注册 [Datafocus](https://www.datafocus.ai/) 账号获取 Bearer Token: 
     1. 进入 [Datafocus](https://www.datafocus.ai/) 官网注册账号
     2. 创建一个应用
     3. 进入应用
     4. 系统配置 -> 接口鉴权 -> 承载令牌 -> 新增承载令牌
-
+       ![bearer token](bearer_token_cn.png)
 ## 安装
 
 1. Clone this repository:
@@ -37,7 +37,7 @@ gradle bootJar
 
 ## MCP 配置文件
 
-添加一下配置到 MCP 的配置文件 (通常在以下目录 `~/AppData/Roaming/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`):
+添加一下配置到 MCP 的配置文件:
 
 ```json
 {
@@ -163,8 +163,6 @@ model 参数说明：
 
 工具返回的数据结构如下:
 
-### 成功响应
-
 ```json
 {
   "errCode": 0,
@@ -177,15 +175,15 @@ model 参数说明：
 }
 ```
 
-### 失败响应
+## Visual Studio Code Cline 示例
 
-```json
-{
-  "errCode": 1001,
-  "exception": "",
-  "msgParams": null,
-  "promptMsg": null,
-  "success": false,
-  "data": null
-}
-```
+1. vsCode 安装cline插件
+2. 配置 mcp server
+   ![配置 mcp server](./mcp_server_config.png)
+3. 使用
+    1. 初始化
+        ![初始化1](./focus_mcp_sql_init_cn_1.png)
+        ![初始化2](./focus_mcp_sql_init_cn_2.png)
+    2. 查询:age的最大值是多少
+       ![查询1](./focus_mcp_sql_chat_cn_1.png)
+       ![查询2](./focus_mcp_sql_chat_cn_2.png)
