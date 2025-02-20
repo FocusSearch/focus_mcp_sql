@@ -187,3 +187,6 @@ All tools return responses in the following format:
        ![initial model2](./focus_mcp_sql_init_2.png)
     2. transfer: what is the max age
        ![chat](./focus_mcp_sql_chat.png)
+
+## Contact：
+![Datafocus](./wechat-qrcode.png)
