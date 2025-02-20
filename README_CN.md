@@ -154,7 +154,7 @@ model 参数说明：
 ```json
 {
   "chatId": "03975af5de4b4562938a985403f206d4",
-  "input": "max(age)",
+  "input": "age的最大值是多少",
   "bearer": "ZTllYzAzZjM2YzA3NDA0ZGE3ZjguNDJhNDjNGU4NzkyYjY1OTY0YzUxYWU5NmU="
 }
 ```
