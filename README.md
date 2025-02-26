@@ -4,7 +4,7 @@ A Model Context Protocol (MCP) server enables artificial intelligence assistants
 
 # There are already so many Text-to-SQL frameworks. Why do we still need another one?
 
-In simple terms, focus_mcp_sql adopts a two-step SQL generation solution, which enables control over the hallucinations of large models and truly builds the trust of non-technical users in the generated SQL results.
+In simple terms, focus_mcp_sql adopts a two-step SQL generation solution, which enables control over the hallucinations of LLM and truly builds the trust of non-technical users in the generated SQL results.
 
 Below is the comparison table between focus_mcp_sql and others:
 
