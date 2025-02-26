@@ -2,6 +2,23 @@
 
 A Model Context Protocol (MCP) server enables artificial intelligence assistants to convert natural language into SQL statements.
 
+# There are already so many Text-to-SQL frameworks. Why do we still need another one?
+
+In simple terms, focus_mcp_sql adopts a two-step SQL generation solution, which enables control over the hallucinations of large models and truly builds the trust of non-technical users in the generated SQL results.
+
+Below is the comparison table between focus_mcp_sql and others:
+
+#### Comparison Analysis Table  
+Here’s a side-by-side comparison of focus_mcp_sql with other LLM-based frameworks:
+
+| Feature            | Traditional LLM Frameworks | focus_mcp_sql              |
+|--------------------|----------------------------|----------------------------|
+| Generation Process | Black box, direct SQL generation | Transparent, two-step (keywords + SQL) |
+| Hallucination Risk | High, depends on model quality | Low, controllable (keyword verification) |
+| Speed              | Slow, relies on large model inference | Fast, deterministic keyword-to-SQL |
+| Cost               | High, requires advanced models | Low, reduces reliance on large models |
+| Non-Technical User Friendliness | Low, hard to verify results | High, easy keyword checking |
+
 ## Features
 
 -Initialize the model
