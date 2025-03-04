@@ -188,4 +188,4 @@ model 参数说明：
        ![查询](./focus_mcp_sql_chat_cn.png)
 
 ## 其他问题联系：
-[https://discord.gg/TUahEW2C](https://discord.gg/TUahEW2C)
+[https://discord.gg/mFa3yeq9](https://discord.gg/mFa3yeq9)
