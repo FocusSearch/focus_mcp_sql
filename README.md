@@ -206,5 +206,5 @@ All tools return responses in the following format:
        ![chat](./focus_mcp_sql_chat.png)
 
 ## Contact：
-[https://discord.gg/mFa3yeq9](https://discord.gg/mFa3yeq9)
+[https://discord.gg/mFa3yeq9](https://discord.gg/AVufPnpaad )
 ![Datafocus](./wechat-qrcode.png)
